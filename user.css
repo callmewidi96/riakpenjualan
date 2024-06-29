@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.bgform{
+  position: relative;
+  margin:auto;
+  max-width:450;
+  width: 100%;
+  overflow: hidden;
+}
+
+.form{
+  padding: 20px;
+  background:#FFFFFF;
+  box-shadow: 1px 1px 5px #5A5A5A;
+}
+
+.form-footer{
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  background:#36454F;
+  color: #F1F1F2;
+  box-shadow: 1px 1px 5px #5A5A5A;
+}
+
+.form-header{
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  background:#36454F;
+  color: #F1F1F2;
+  box-shadow: 1px 1px 5px #5A5A5A;
+}
+
+input{
+  height: 3em;
+  margin: 4px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-footer a{
+  color: #F1F1F2;
+}
+
+.form-footer a:hover{
+  color: #FB8B24;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.oren{
+  background:#FB8B24;
+  color:white;
+}
+.oren:hover{
+  background:#dd8028;
+  color:white;
+}
+.oren:active{
+  background:#dd8028;
+  color:white;
+}
+
